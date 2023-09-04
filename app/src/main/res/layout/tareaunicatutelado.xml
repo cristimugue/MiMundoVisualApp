@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/borde"
+            android:layout_margin="2dp">
+
+            <ImageView
+                android:id="@+id/imagenprevia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/v"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            tools:ignore="ExtraText"
+            android:id="@+id/linearlayouttarea"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:fontFamily="@font/designgraffiticomicsansmsgras"
+            >
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comic"
+                android:gravity="center"
+                android:text="@string/titulo"
+                android:textAllCaps="true"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                />
+
+            <TextView
+                android:id="@+id/hora"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+                android:fontFamily="@font/comic"
+                android:text="hora"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cbhecho"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:fontFamily="@font/comic"
+                android:text="@string/hecho"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

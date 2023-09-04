@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Mi Mundo Visual</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="como_te_llamas">¿Cómo te llamas?</string>
+    <string name="button">Button</string>
+    <string name="bienvenido">Bienvenido a</string>
+    <string name="toca_la_pantalla_para_continuar">Toca la pantalla para continuar</string>
+    <string name="textview">Texto</string>
+    <string name="contrase_a_de_seguridad">Contraseña de seguridad</string>
+    <string name="ingresar">Acceder</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="play">PLAY</string>
+    <string name="c_mo_te_llamas">¿Cómo te llamas?</string>
+    <string name="continuar_como_tutor">Continuar como tutor</string>
+    <string name="continuar_como">Continuar como</string>
+    <string name="iniciosesion">Continuar con Google</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="seleccione_tarea">Indique la tarea:</string>
+    <string name="hora">Hora</string>
+    <string name="a_adir_tarea">Añadir tarea</string>
+    <string name="introduce_la_descripci_n_de_la_actividad">Introduce la descripción de la actividad</string>
+    <string name="a_las">A las</string>
+    <string name="hecho">Hecho</string>
+    <string name="titulo">titulo</string>
+    <string name="tiempo">Hoy es </string>
+    <string name="temperatura">Hace un día </string>
+    <string name="humedad">Humedad</string>
+    <string name="todo">TODO</string>
+    <string name="guardar">guardar</string>
+    <string name="textobienvenida">"¡Hola!                  ¿Con quien hablo? "</string>
+    <string name="texto2"> ¿No eres José Carlos? </string>
+    <string name="editar">editar</string>
+    <string name="guardar_edicion">guardar edicion</string>
+    <string name="grabar">Grabar</string>
+    <string name="enviar_grabacion">Enviar grabacion</string>
+    <string name="grabar_audio">grabar audio</string>
+    <string name="reproducir">REPRODUCIR</string>
+    <string name="v" />
+    <string name="disconnect">Disconnect</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="desc_firebase_lockup">Firebase Lookup</string>
+    <string name="google_title_text">GOogle Title Text</string>
+    <string name="son_las">Son las  </string>
+    <string name="confirmar">Confirme nueva contraseña</string>
+    <string name="guardarcontrasena">Guardar contraseña</string>
+    <string name="contrasena">Nueva contraseña</string>
+    <string name="reportes">Histórico</string>
+    <string name="cambiar_contrase_a">Editar perfil</string>
+    <string name="cambiar_de_perfil">Cambiar de perfil</string>
+
+
+</resources>

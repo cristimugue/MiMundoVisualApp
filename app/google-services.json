@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "494524977813",
+    "project_id": "mi-mundo-visual",
+    "storage_bucket": "mi-mundo-visual.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494524977813:android:db981fc7ff389ecf2b419c",
+        "android_client_info": {
+          "package_name": "com.cristina.mimundovisual"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494524977813-67t80175lvh5ivv0o7nlb3vueunjl7vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cristina.mimundovisual",
+            "certificate_hash": "a25f4a8532d9fa74028b4c46af4c0b2f3a26a3b8"
+          }
+        },
+        {
+          "client_id": "494524977813-thevnqhotvu492en32qe593tbi5vrv1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjiSg2Dn7cRGRZ5keBdZgyKhVvxz4DgQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494524977813-thevnqhotvu492en32qe593tbi5vrv1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:visibility="visible"
+
+    tools:context=".DetalleTareaTutorActivity"
+    android:gravity="center"
+    android:background="@drawable/fondoneutro">
+
+    <Button
+        android:id="@+id/botoneditar"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="@string/editar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <Button
+        android:id="@+id/botoneliminar"
+        android:layout_width="128dp"
+        android:layout_height="48dp"
+        android:text="@string/eliminar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.752"
+        app:layout_constraintStart_toEndOf="@+id/botoneditar"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="0.136"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/titulodetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:gravity="center"
+            android:text="@string/titulo"
+            android:textAllCaps="true"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/horadetalle"
+            android:layout_width="146dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/hora"
+            android:textColor="#050000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/descripciondetalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/descripcion"
+            android:textColor="#F6050000"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imagenestado"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/todo"
+            android:layout_marginTop="20dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Tarea realizada"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:textColor="#050000"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

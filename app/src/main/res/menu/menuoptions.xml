@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/a_adir_tarea"
+        android:id="@+id/item1"/>
+    <item android:title="@string/reportes"
+        android:id="@+id/item2"/>
+    <item android:title="@string/cambiar_contrase_a"
+        android:id="@+id/item3"/>
+    <item android:title="Cerrar sesión"
+        android:id="@+id/item4"/>
+    <!---<item android:title="@string/cambiar_de_perfil"
+        android:id="@+id/item4"/>-->
+
+</menu>

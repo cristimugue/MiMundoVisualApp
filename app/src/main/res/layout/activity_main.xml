@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fndocorcho"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#00FFFFFF"
+
+        android:gravity="center"
+        android:text="@string/bienvenido"
+        android:textColor="#1C296E"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266" />
+
+    <TextView
+        android:id="@+id/texto21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#1C296E"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#9766B3F1"
+        android:gravity="center"
+        android:text="@string/toca_la_pantalla_para_continuar"
+        android:textColor="#11118F"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto21"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <Button
+        android:id="@+id/pulsador"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#FF5722"
+        app:backgroundTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+<!---
+    <Button
+        android:id="@+id/botonguia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descargue aquí la guía de usuario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+    -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
