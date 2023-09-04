@@ -46,7 +46,7 @@ class MenuHijoActivity : AppCompatActivity() {
     private lateinit var fusedLocationClient: FusedLocationProviderClient
 
     //Tiempo
-    val API:String="15eae490e54aac4a3438ecc04454e34c"
+    val API:String="PUT YOUR API KEY HERE"
     private lateinit var imagen:ImageView
     private lateinit var tiempo: String
 
